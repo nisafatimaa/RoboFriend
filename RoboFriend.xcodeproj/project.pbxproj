@@ -13,6 +13,8 @@
 		521F4A6A2B92CD9F004A6C5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 521F4A682B92CD9F004A6C5F /* Main.storyboard */; };
 		521F4A6C2B92CDA6004A6C5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 521F4A6B2B92CDA6004A6C5F /* Assets.xcassets */; };
 		521F4A6F2B92CDA6004A6C5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 521F4A6D2B92CDA6004A6C5F /* LaunchScreen.storyboard */; };
+		521F4A772B9300EC004A6C5F /* ChoicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521F4A762B9300EC004A6C5F /* ChoicesViewController.swift */; };
+		5273096A2B96234E00139A39 /* RoboFriendBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527309692B96234E00139A39 /* RoboFriendBrain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		521F4A6B2B92CDA6004A6C5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		521F4A6E2B92CDA6004A6C5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		521F4A702B92CDA6004A6C5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		521F4A762B9300EC004A6C5F /* ChoicesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoicesViewController.swift; sourceTree = "<group>"; };
+		527309692B96234E00139A39 /* RoboFriendBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoboFriendBrain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +62,31 @@
 			children = (
 				521F4A622B92CD9F004A6C5F /* AppDelegate.swift */,
 				521F4A642B92CD9F004A6C5F /* SceneDelegate.swift */,
-				521F4A662B92CD9F004A6C5F /* ViewController.swift */,
+				527309662B9622D600139A39 /* Model */,
+				5221636F2B977738000BD93D /* Controller */,
 				521F4A682B92CD9F004A6C5F /* Main.storyboard */,
 				521F4A6B2B92CDA6004A6C5F /* Assets.xcassets */,
 				521F4A6D2B92CDA6004A6C5F /* LaunchScreen.storyboard */,
 				521F4A702B92CDA6004A6C5F /* Info.plist */,
 			);
 			path = RoboFriend;
+			sourceTree = "<group>";
+		};
+		5221636F2B977738000BD93D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				521F4A662B92CD9F004A6C5F /* ViewController.swift */,
+				521F4A762B9300EC004A6C5F /* ChoicesViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		527309662B9622D600139A39 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				527309692B96234E00139A39 /* RoboFriendBrain.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,7 +162,9 @@
 			files = (
 				521F4A672B92CD9F004A6C5F /* ViewController.swift in Sources */,
 				521F4A632B92CD9F004A6C5F /* AppDelegate.swift in Sources */,
+				5273096A2B96234E00139A39 /* RoboFriendBrain.swift in Sources */,
 				521F4A652B92CD9F004A6C5F /* SceneDelegate.swift in Sources */,
+				521F4A772B9300EC004A6C5F /* ChoicesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
